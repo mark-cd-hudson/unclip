@@ -39,7 +39,7 @@ class App extends React.Component {
 
   search  = () => {
     const query = this.state.query;
-    fetch(`http://34.121.15.89/search?q=${query}`)
+    fetch(`https://floofe.com/search?q=${query}`)
       .then(res => res.json())
       .then(
         (result) => {
