@@ -2,7 +2,7 @@ import React from 'react';
 
 const SearchBar = ({query,setQuery}) => {
   const BarStyling = {
-    width:"100%",
+    width:"50%",
     height: "40px",
     borderRadius: '100px',
     paddingLeft: '50px',
