@@ -8,7 +8,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      query: '',
+      query: 'Cinque Terre',
       images: [
         "https://images.unsplash.com/photo-1553781808-f27ef4fdd633?h=800",
         "https://images.unsplash.com/photo-1571084797756-44c01f79d666?h=800",
