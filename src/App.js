@@ -64,6 +64,11 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+        {/* <a className="donation" href="https://www.buymeacoffee.com/markhudson"> */}
+        <div className="donation">
+          <img src="https://img.buymeacoffee.com/button-api/?text=Support a week of hosting&emoji=🎛️&slug=markhudson&button_colour=FFFFFF&font_colour=222222&font_family=Poppins&outline_colour=000000&coffee_colour=FFDD00"/>
+        </div>
+        {/* </a> */}
         <div className="top">
           <SearchBar query={this.state.query} setQuery={this.setQuery}/>
         </div>
